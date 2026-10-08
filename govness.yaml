@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "northbridge-civic-tech.agent-audit-log"
+name: "Agent audit-log plugin"
+type: "plugin"
+version: "2.3.1"
+summary: "Records every tool call an agent makes, with inputs, outputs and the person it acted for, in a tamper-evident log."
+description: "A drop-in plugin that writes an append-only, hash-chained log of agent actions, so an administration can answer who did what, when and on whose behalf."
+publisher:
+  environment: "northbridge-civic-tech"
+  body: "Northbridge Civic Tech"
+languages: ["en"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/agent-audit-log"
+domains: ["ai-governance", "cybersecurity"]
